@@ -17,5 +17,5 @@ This tool discovers subdomains for a given domain by examining SSL certificates 
 
 ```bash
 pip install -r requirements.txt
-python src/subdomain_lister.py example.com
-python src/subdomain_lister.py example.com --no-check --threads 20 --output-dir my_outputs
+python subdomain_lister.py example.com
+python subdomain_lister.py example.com --no-check --threads 20 --output-dir my_outputs
